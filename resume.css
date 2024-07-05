@@ -58,19 +58,19 @@
 }
 
 .individualcardsProj{
+    margin-bottom: 3%;
     background-color: white;
     display: flex;
     width: 65%;
     justify-content: space-between;
     padding-left: 4%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
-    margin-bottom: 4%;
 }
 
 .leftCardProj{
     width: 50%;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .leftCardProj h1{
