@@ -111,6 +111,7 @@ html{
 @media(max-width: 768px){
     header{
         position: relative;
+        overflow: hidden;
     }
 
     .frontPage{
