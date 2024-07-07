@@ -65,8 +65,8 @@ header ul{
     width: 90%;
     padding: 3%;
     justify-content: space-between;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    padding-top: 15%;
 }
 
 .leftFrontPage{
@@ -106,4 +106,35 @@ header ul{
 
 html{
     scroll-behavior: smooth;
+}
+
+@media(max-width: 768px){
+    header{
+        position: relative;
+    }
+
+    .frontPage{
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .frontPage h2{
+        font-size: 7vw;
+    }
+    
+    .frontPage h1{
+        font-size: 20vw;
+        align-self:flex-start;
+    }
+
+    .rightFrontPage{
+        margin-top: 10%;
+        width: 80%;
+    }
+
+    .rightFrontPage p{
+        font-size: 6vw;
+    }
+
 }

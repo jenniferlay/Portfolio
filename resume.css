@@ -1,5 +1,6 @@
 .resumePage{
     padding: 5%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
 }
@@ -216,4 +217,89 @@
 .button-28:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+@media (max-width: 768px){
+    .resumePage h1 {
+        font-size: 16vw;
+    }
+
+    .workcards{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .individualcards{
+        padding: 4%;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .leftCard{
+        width: 100%;
+    }
+
+    .leftCard h1{
+        font-size: 7vw;
+    }
+
+    .leftCard h2{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+
+    .leftCard h3{
+        margin-top: 2%;
+        font-size: 5vw;
+    }
+
+    .rightCard{
+        width: 100%;
+    }
+
+    .rightCard p{
+        margin-top: 3%;
+        font-size: 4vw
+    }
+
+    .individualcardsProj{
+        padding: 4%;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .leftCardProj{
+        width: 100%;
+    }
+
+    .leftCardProj h1{
+        font-size: 7vw;
+    }
+
+    .rightCardProj{
+        width: 100%;
+    }
+
+    .individualcardsContact{
+        width: 80%;
+        justify-content: center;
+    }
+
+    .verticalContact{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contactBlock{
+        flex-direction: column;
+    }
+
+    .sideContactBlock{
+        width: 100%;
+    }
+
+    .button-28{
+        width: 40%;
+    }
 }
