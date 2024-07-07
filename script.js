@@ -9,3 +9,26 @@ function send(){
         message => alert(message)
     )
 }
+
+function showNav(){
+    const navbar = document.querySelector(".linksMobile")
+
+    if (navbar.classList.contains("showNav")){
+        navbar.classList.remove("showNav")
+    }
+    else{
+        navbar.classList.add("showNav")
+    }
+
+    const navbartext = document.querySelectorAll(".headerLinksMobile");
+
+    navbartext.forEach((each)=>{
+        if(each.classList.contains("showNavText")){
+            each.classList.remove("showNavText")
+        }
+        else{
+            each.classList.add("showNavText")
+        }
+    })
+    
+}
