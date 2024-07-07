@@ -17,7 +17,6 @@ body{
 
 header{
     width: 100%;
-    background-color: beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,3 +104,6 @@ header ul{
     line-height: 1.2;
 }
 
+html{
+    scroll-behavior: smooth;
+}
