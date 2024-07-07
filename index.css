@@ -145,6 +145,11 @@ html{
         font-size: 6vw;
     }
 
+
+
+
+
+
     .headerLinks{
         display: none;
     }
@@ -162,9 +167,8 @@ html{
         align-items: center;
         list-style-type: none;
         justify-content: space-around;
-        overflow: hidden;
         height: 0px;
-        overflow: hidden;
+        overflow: hidden; 
         transition: all 0.4s ease-in-out;    
     }
     
@@ -180,7 +184,6 @@ html{
     .showNav{
         height: 65vh;
         padding-bottom: 25vh;
-        opacity: 100%;
     }
 
     .showNavText{

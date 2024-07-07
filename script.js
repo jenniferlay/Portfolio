@@ -16,6 +16,7 @@ function showNav(){
     if (navbar.classList.contains("showNav")){
         navbar.classList.remove("showNav")
     }
+    
     else{
         navbar.classList.add("showNav")
     }
