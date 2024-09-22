@@ -56,12 +56,13 @@ header ul{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    font-weight: 400;
     transition: all ease-in-out 0.4s;
     margin-left: 1.5vw;
 }
 
 .headerLinks:hover{
-    color: #9381FF;
+    color: white;
 }
 
 
