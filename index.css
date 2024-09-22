@@ -16,7 +16,7 @@ body{
 }
 
 .background{
-    background-color: white;
+    background-color: #FFEEDD;
 }
 
 header{
@@ -24,7 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #FFD8BE;
     margin-bottom: 2%;
     position: fixed;
     margin-top: 0;
@@ -71,15 +71,15 @@ header ul{
     padding: 3%;
     justify-content: space-between;
     /* margin-top: 10%; */
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .leftFrontPage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    /* justify-content: center; */
     align-items: center;
+    text-align: left;
 }
 
 .rightFrontPage{
@@ -97,19 +97,17 @@ header ul{
 }
 
 .leftFrontPage h1{
-    font-size: 8rem;
-    align-items: center;
+    font-size: 9.5rem;
 }
 
 .leftFrontPage h2{
-    font-size: 3rem;
-    margin-bottom: 3%;
+    font-size: 2rem;
+    /* margin-bottom: 3%; */
 }
 
 .leftFrontPage h3{
     font-size: 2rem;
-    font-weight: 500;
-    color: rgba(35, 35, 35, 0.744);
+    font-weight: 400;
 }
 
 .rightFrontPage p{
@@ -128,26 +126,44 @@ html{
 }
 
 .main-footer {
-    background-color: #333;
+    background-color: #535353;
     color: #fff;
-    padding: 20px;
+    padding: 4%;
     text-align: center;
-  }
-  
-  .footer-content p {
-    margin: 0;
+    display: flex;
+    width: auto;
   }
 
-  .footer-content-upper{
+  .leftfooter{
+    width: 30%;
+    display: flex;
+    align-items: center;';-'
+  }
+  
+  .footer-content{
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+  }
+  .footer-content p {
+    display: flex;
+    width: 100%;
+    /* padding: 2rem; */
   }
   
   .leftfooter h2{
     font-weight: 100rem;
+    font-size: 2rem;
   }
 
+  .leftfooter a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+  }
+
+  .rightfooter{
+    width: 55%;
+  }
 
   .social-links {
     list-style: none;
@@ -169,6 +185,11 @@ html{
   
   .social-links a:hover {
     text-decoration: underline;
+  }
+
+  .socialpic{
+    width: 5%;
+    height: auto;
   }
   
 

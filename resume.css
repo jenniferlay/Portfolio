@@ -21,7 +21,7 @@
     display: flex;
     width: 60%;
     padding: 4%;
-    background: rgba(142, 142, 142, 0.404);
+    background: white;
     justify-content: space-between;
     margin-bottom: 3%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
@@ -81,12 +81,16 @@
 
 .leftCardProj p{
     font-size: 1.3rem;
+    margin-bottom: 5%;
 }
 
 .rightCardProj{
-    width: 40%;
+    display: flex;
+    width: 45%;
     height: 100%;
     object-fit: cover;
+    align-self: center;
+
 }
 
 .individualcardsContact{
@@ -217,6 +221,43 @@
 .button-28:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.education{
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+
+.educationBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftEducation{
+    width: 60%;
+
+}
+
+.rightEducation{
+    width: 20%;
+}
+
+.leftEducation h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.leftEducation h2{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.rightEducation h2{
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: end;
 }
 
 @media (max-width: 768px){

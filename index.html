@@ -26,7 +26,7 @@
     <header>
         <a class="jenName" href="#TOP">Jennifer Lay</a>
         <ul>
-            <li> <a class="headerLinks" href="#WORK">Resume</a> </li>
+            <li> <a class="headerLinks" href="#WORK">Experience</a> </li>
             <li> <a class="headerLinks" href="#PROJECTS">Projects</a> </li>
             <li> <a class="headerLinks" href="#CONTACT">Contact</a> </li>
             <button onclick="showNav()" class="hamburger"><img src="./images/Hamburger_icon.svg.png" alt="hamburger"></button>
@@ -35,7 +35,7 @@
     </header>
 
     <ul class="linksMobile">
-        <li> <a class="headerLinksMobile" href="#WORK">Resume</a> </li>
+        <li> <a class="headerLinksMobile" href="#WORK">Experience</a> </li>
         <li> <a class="headerLinksMobile" href="#PROJECTS">Projects</a> </li>
         <li> <a class="headerLinksMobile" href="#CONTACT">Contact</a> </li>
     </ul>
@@ -62,6 +62,24 @@
     </div>
 
     <div id="WORK" class="resumePage">
+
+        <h1>Education</h1>
+
+        <div class="education">
+            <div class="educationBox">
+                <div class="leftEducation">
+                    <h1>Bachelor of Engineering (B.Eng): Computer Engineering </h1>
+                    <h2>Toronto Metropolitan University</h2>
+                </div>
+                <div class="rightEducation">
+                    <h2>2022-Present</h2>
+                </div>
+            </div>
+
+        </div>
+
+
+        
         <h1>Work Experience</h1>
         <div class="workcards">
 
@@ -151,12 +169,11 @@
             <div class="individualcardsProj">
                 <div class="leftCardProj">
                     <h1>SkinMatch</h1>
-                    <p> The GPU is composed of latches, an ALU, a control unit, 
-                        and a seven segment display unit. The control unit is made 
-                        of a moore finite state machine and a 4-to-16 decoder. 
-                        The arithmetic logic unit is the core of the general processor 
-                        unit that performs arithmetic and logical operations based on 
-                        the inputs received from the latches and control unit.
+                    <p> SkinMatch is a full-stack web application built with Flask, React.js, and PostgreSQL. 
+                        I developed a backend API using Python and Flask to manage server-side functionality and 
+                        product classification algorithms, based on user input from a dynamically generated skincare quiz. 
+                        SkinMatch delivers personalized skincare recommendations, empowering users to make smarter beauty choices and 
+                        transforming how they discover skincare products. Get started today!
                     </p>
                 </div>
                 <img class="rightCardProj" src="./images/skinmatch.png" alt="img">
@@ -165,12 +182,17 @@
             <div class="individualcardsProj">
                 <div class="leftCardProj">
                     <h1>LeetBot</h1>
-                    <p> The GPU is composed of latches, an ALU, a control unit, 
-                        and a seven segment display unit. The control unit is made 
-                        of a moore finite state machine and a 4-to-16 decoder. 
-                        The arithmetic logic unit is the core of the general processor 
-                        unit that performs arithmetic and logical operations based on 
-                        the inputs received from the latches and control unit.
+                    <p> At the Ignitions Hacks hackathon, my team and I developed a multiplayer turn-based game within 30 hours, 
+                        players can log in with their LeetCode username, which links their robot stats directly to their LeetCode statistics, 
+                        including total answers completed, rank, and submission percentage. Built with React, Flask, and Socket.io, 
+                        this project won first place at the hackathon! 
+
+                    </p>
+                    <p>
+                        Built a full-stack online player vs player game using Flask to create player profiles based on LeetCode statistics, 
+                        with Socket.io supporting WebSocket connections for real-time interactions and gameplay updates.
+                        Created a responsive, interactive player interface using React.js, maintaining backend WebSocket connections. 
+                        Integrated Mistral AI for generating usernames and the LeetCode GraphQL API to track and display player statistics.
                     </p>
                 </div>
                 <img class="rightCardProj" src="./images/leetbotpic.png" alt="img">
@@ -274,26 +296,26 @@
         <footer class="main-footer">
             <div class="footer-content">
 
-                <div class="footer-content-upper">
                     <div class="leftfooter">
-                        <h2>Jennifer Lay</h2>
+                        <h2>
+                            <a href="/">Jennifer Lay</a>
+                        </h2>
     
                     </div>
-                    <div class="right footer">
+                    <div class="rightfooter">
                         <h2>Socials</h2>
 
                         <div class="socials">
                             <ul class="social-links">
-                                <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
-                                <li><a href="https://www.facebook.com/yourprofile">Facebook</a></li>
-                                <li><a href="https://www.instagram.com/yourprofile">Instagram</a></li>
-                              </ul>
+                                <li><a href="https://www.linkedin.com/in/jennifer-lay/"></a></li>
+                                <li><a href="https://www.facebook.com/yourprofile">Discord</a></li>
+                                <li><a href="https://www.instagram.com/jenniferlayyy"></a>
+                                <img class="socialpic" src="./images/instagramlogo.png" alt="IGIMG">
+                                </li>
+                            </ul>
 
                         </div>
-    
-                    
-                </div>
-
+                    </div>
                 
             </div>
           </footer>
