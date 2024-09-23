@@ -69,6 +69,21 @@
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
 }
 
+.individualcardsProj a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 2%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.individualcardsProj:hover{
+    transition: all 0.5s ease-in-out;
+    background: rgba(216, 216, 216, 0.452);
+}
+
 .leftCardProj{
     width: 50%;
     padding-top: 4%;
@@ -89,8 +104,8 @@
     display: flex;
     width: 45%;
     height: auto;
-    /* object-fit: cover; */
     align-self: center;
+    justify-content: center;
 
 }
 
@@ -261,23 +276,36 @@
     text-align: end;
 }
 
-.skillsect{
+.skillsection{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillsectleft{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
     gap: 20px;
+    width: 50%;
 }
 
 .skillItem{
     display: flex;
     width: 100%;
     height: 100%;  
-    background-color: #ffd8be71;
+    background-color: #c1aa9a71;
     border-radius: 10px;
     padding: 3%;
     font-weight: 500;
     font-size: 1.2rem;
     justify-content: center;
     align-items: center;
+}
+
+.skillItem:hover{
+    background-color: #c1aa9a7d;
+    color: white;
+    transition: all 0.5s ease-in-out;
 }
 
 
